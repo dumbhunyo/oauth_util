@@ -8,13 +8,7 @@ TOKEN_URL = "http://localhost/peoplesuite-ohrmv5/web/index.php/oauth2/token"
 CLIENT_ID = "229a4c5c4e14984efae60fab87aa2bdd"
 CLIENT_SECRET = "xMCjUiWwI6o33b+A7QaoU2OhKkfhLUv8hsMXG6s78Qw="
 REDIRECT_URI = "http://localhost/"
-
-# === GET CODE FROM ARGUMENT ===
-if len(sys.argv) != 2:
-    print("Usage: python3 get_token.py <authorization_code>")
-    sys.exit(1)
-
-AUTH_CODE = sys.argv[1]
+AUTH_CODE = "replace_this_with_your_code"
 
 # === REQUEST ACCESS TOKEN ===
 data = {
