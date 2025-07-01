@@ -55,7 +55,7 @@ try:
     # Check if response contains a new access token
     if 'access_token' in new_tokens:
         save_tokens(token_file, new_tokens)
-        print("Access token refreshed successfully.")
+        print("Access token refreshed successfully.\n")
         print(json.dumps(new_tokens, indent=2))
 
         # Log refresh time to file
